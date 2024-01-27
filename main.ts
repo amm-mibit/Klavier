@@ -1,0 +1,24 @@
+cokoinoTouchPiano.TP_ShowRGB(
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.RED),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.RED),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.RED),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.RED)
+)
+basic.pause(1000)
+cokoinoTouchPiano.TP_ShowRGB(
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.GREEN),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.GREEN),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.GREEN),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.GREEN)
+)
+basic.pause(1000)
+cokoinoTouchPiano.TP_ShowRGB(
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.BLUE),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.BLUE),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.BLUE),
+cokoinoTouchPiano.TP_SetColor(RGB_COLOR.BLUE)
+)
+basic.pause(1000)
+basic.forever(function () {
+    cokoinoTouchPiano.TP_PlayPiano()
+})
